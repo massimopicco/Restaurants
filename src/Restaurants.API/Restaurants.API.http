@@ -1,0 +1,157 @@
+@Restaurants.API_HostAddress = https://localhost:7045
+@testusertoken = CfDJ8OYyvwmnKMBIjn1UfJWwIzFPvUGTotNy3NILl8OYEVhDcvtCcewLeXnBSp742kd_VwO5h7ojOO8kh0rEoy5cb3lVaZQgUsoCf_ze67vlE_nn2KDcl-ivQrbx4TumwlCReLey0bUPlfolp5uwZcLCnkZRBcqx4KWZXzdEzfi3Ru10i51tWDo20bBojwU6IxMzZoa6LIeMekJaIeB48pT2YKUDwZTwRnzBuINca1LhSwwyenwfCtUwsfeqjg5cA9dR4WvhvV8_y2brbhf3mQpXJJMAk3S_SEB07lOW3mDN-62D7i8qhnWejEkRaX4-12k2HO277Fhzv8Lqe2rifMO09YqmYNK_uyR7K3W9Jx90vIeedG9-8T7RjrKyePJrNitXPGN4uuk1zAegmaChCQQt_Q4oLi5moCzLS47MP3ZzPUlwwf_pr9Pczd-c-zvWCymLeen6jP8nP1AoW9s4gkH0fjPg4MTw2Nte4tAfPmE21Fvt1YSaPEZ0zjFLGSCVfmUNImceg-IqhDZbFubzAEVJ9nrBudN_QTTP9T2BNghzjUvjKe31grXUvlFgW2MOwvUqsIoNuf6ntEvqFCbfU6XZkkbma9W5lMSJxBJq0O047bQCxM9puKnMEuftS44t5Qwjuxlcvbee6sLni80euVbF-juKE-rsBsoKEgY5h_2JE7dVzfqDGmTrlSK5IMF3lx_JaBpS_dvoGzif2FtEJtnX7Rr3d839nQRTThg74w0cRNOO1q6wjK6S29PMpOkxZjFcj4qUE_AQ6QPjTwlNhcwXeH8
+@admintoken = CfDJ8OYyvwmnKMBIjn1UfJWwIzFbKs7dyCCb84hJpKawEWbpfRKwnApUVqKcrKEMbmalYxLtzgwpK3NdBW_bDahhOrzjYJ8SMjqZofNlSX4wJv9ThCX7EHR1-DqZMpBI19dVUYG-NTTn4GItmlo67PQB7D4SfhK_1QQ5NbGLwWwluvi3ki--BgD0X8S5LK_Jhk52hzqUr0tUAe5LTPsUxNn_jjIhEn3gxKBxWbI_M8ge56aGTcxa8CNHzIG0hs1FswcmzUixCYQ32QhJV-1QX8QH2kvUEfsc9YcaRFCoWCoztvTLPQKo8dglvN63OEMrTLtjteMsoceqdN1AQ7B5jWKOM2Gb7_fqhItR0n-9HuZXx0e7nsrpcel4MP-ykfk-9aLquMUeh_Vs3yvhdtx_GHtoXZ0AUAqpqlmwNFk7zMyFnKkC_JMgXnEqy_e-61eAHSRVfJccLvUihxmkh6uoqUNFtves4grEzVtjm3bqgBjyxCiga34Ny-Wu1yAsSf4hRFjtluBjmDeHxudih9FLO-DpBjfJXlUHmo0-coskisA0cGIw1YXe0sfMCFzq7pWHLx22IdB2Htvq6oZyuIaj7UF0DZ-4Qp6xQjy_RQwxGyKQJvD5WXefqP16JEAjWeYvQ6gwGrOylN2TKhiY2r_2QIQ4Kiebp6C8MGlAhGqWTF263BqHCn8OdstfxMAZbxgSO6_wsach0ABHNS4tD8ny4467ftV4XBKn7SyhWPBkv3Hom_03R8RJyQU9z8ztAjxC6X06jE_Lugq3qxRJNEU8KRDaQx56iwM-byDVs0XhErTzRMr2
+@ownertoken = CfDJ8OYyvwmnKMBIjn1UfJWwIzGnM-ihWHLzL6hR1FnezgM9o9At9HZJTMm381e9uMM__4SjJR3z8ZVu4Fsv1rdzs-IKSo4eFxcaLJ5OC2c1VUImAxEJQzzmv8FaSxcpVwt-semU5_a09ZQQ7v5ctcLXP3lW3efH6ua-tzoZ3lxPeMcDNu1cp_-Dzn8knLXsMiSPBcYJEmr3TPt0Fsj5Mv0Rak5dxcnYt5i-XiRacpotvsmWPq7uqhoyTv9ATnZs7UofbOYTcLDSVuvAIqNL-xNGKa3h2nM4SlVJuL73x_pKlp2vSf87rTRyYo5TzjvDN4f3BV-ZUEHyAkCorPucI8s6NQv4-SXChUsiBshFqQbowGgxpLB-QAeQHoDn7IfQf-vvUtV8mrFMLs6Q3x-U8fBN8N-jxE6K15RHsNMfMNuOPIOP6kKq4j6RUWE0jcGZ5FQq60dciKaUwmHAB7hh4DGC3gvMhX92YpDQ1dKnlmyq9uo0hVNOuPFuuaN8-And6V4AAQn2aBvh7L22QNlrOnL7svUl8mnoxKZr0AK_5W0uW13H5XStKs-Sm8Lk-zW4Jhu-0XPZPHMpmlwVgh7Dyr4W05bC3QlDofjFQU0L59Iwjkl_uDeyoctui0V5WId2N9NrjPff8dcZRJ2Su9m0DUrsTtnsGE5qcEZTam25GQr7BefCVGEYlVyG9xlkwZuaqEPnmlswmAFVribq9I329enHiU-BuiVKF1cGjuZ2tvQFmLMIBQbrpJUG5R0Cj1QbsBhitLD5t7ivo5NsMKukELOBhdP5hUD2UQfCafbd6tpyEcofwAueIBZ5O6PaGmcriTyaNZmPHCL3yTkeDq_YsLDO_7UqSzk3621gs1mpYMTZxW5WK_4hHfgpTlDVbbiQ_FjSKA
+@owner2token = CfDJ8OYyvwmnKMBIjn1UfJWwIzFVnwO5EicQxxdA4mblOXgR1CYdJoTMwdSvxBupCaN0TinhckIYjMZNv5Rx5AH-ixwVIxik6rLI2uW9L6kmoJfdnVyocWxLx1R4Uso4nF8sH1y95chjewmmvAWWvoZSt9cjQgzI2KF8XdDlvWlIjyXClNifVyv4Ozlbr_e__CxuWMFvDULNM-J4yK94AXLZ9eDkxgrB1bOnc_79kCrEV1T1bOqAWEbSTh797YIap8_mnkqOpQWz4Od1E4HkCCVVqmiQND9HyPTufmuUcW_AFnqn5fPFSDjHsJKGqxsxv0oIVFuxk-jObxjoOC8VRDQ9kFjZx4-j4UMeXWa69mI1dHMkAOF0yk0Bx0HxdJQX1l7g6jda-sm4B4birqZy1NLzCK5Lm6Bc9wTyOP1hfY8rJW8QHEW7WBIp14XxrfbdCzXvj16jbFMwrDoN1Xu9gD3kzVInsEh14z-t0qUyDVS5y7CMWsiH5fv8bzgowShg61-AJquDp7YIlmgfKBVDxEMuSw2-z0aOF0PydjhKETWoHwSRZQl-alHAqEhnq5Rqmn-Yms8cEBwSK1MEQ1f4SPspqfnpluUS0fcH3cZiYUBX_Ajnaa5XOfIbbfZEft54FWIhRHhFnfLNzwyCJjjVWm4eObfDShr8OW6mbnVTKVMCcuZkRBDoGFe9esYV8SzoGgTDqSoBOsrRhaGW-XVHEGJMDlKKAT8LWq_LRMa8XSoX7fPIBuxp94V6OYdESZ5zXcmI9PXsqMKhs6VJvc8Do3OkOFj5jHkdNbvR_cS1yW6oI33X
+@usertoken = CfDJ8OYyvwmnKMBIjn1UfJWwIzGw12rI84TVUECauAyQHM52ObIKaeyOoazuIB20VEsmqfJc521OS54rXgRhiJzpT9cU_pzVwA6XMuGkc3tUsrkCvitEB4b1GXaMVUj7ZGPlVCVTWT3V-Jalkod6Zdr1SHa4C29IhHayJJOVxtRMZ0X1bMFr93lDYx2knuMQ2wix8tZsuYsDxsaPjlPtqUHXVQIpaKBeEd8diQThTHNtuvB0ZDHPNbOrtmGih9XWStTQtRXxrByJZBQo9l9oixipK4O0Hv_QPU-0hkHlJCe-Xd9VbaSIHV5MmSKRRTX6YYU036kbaowW-YI8deSTIlNYu4VMndMBgOrBrPThVsiaeYpLUHD89_I-9VVgBYF4vdUvOZ9UviXQWTBoRjiZdjGcB2M_rrzxg77EDbFdzh9wnRDZFPQ70cb6loqB4jztV5s0uESB06UGMvdmep-x30YSY0nsdR82tuZdrF_gmpXoHJLJBrbgFEafIrvHRru-lSLgm4jvWKq1zwJ7FCQ29eah-isylE_A7bGW7ppLylTmNRJIj-4x7Qz1wMGdea_cQv9J4Q8czsChZJ1VUCtNWVJ51Q3R2i4nwqeSBynFx9q8HUyJy2JQ5tpm8Hv5h3hw0U3_JcNsENwI6O4Cgv2xAis7YzN70dPoNu9KF8HVHaOjzbc26VYrRQKdoTRrcT-pexfN3oVFKHIVw0kHG3s5184P4LX90Tf7bvyjac_cRl0of2CTmXMJ6s5ipYBqyGCOUxMYPzl4GY9cf39qYTHOSwvwyc6HhXwFacsnCtIykz2XMthr
+
+POST {{Restaurants.API_HostAddress}}/api/identity/register
+Authorization: Bearer {{admintoken}}
+Content-Type: application/json
+
+{
+  "email": "owner2@test.com",
+  "password": "Password1!"
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/identity/login
+Content-Type: application/json
+
+{
+  "email": "testuser@test.com",
+  "password": "Password1!"
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/identity/login
+Content-Type: application/json
+
+{
+  "email": "admin@test.com",
+  "password": "Password1!"
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/identity/login
+Content-Type: application/json
+
+{
+  "email": "owner@test.com",
+  "password": "Password1!"
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/identity/login
+Content-Type: application/json
+
+{
+  "email": "owner2@test.com",
+  "password": "Password1!"
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/identity/login
+Content-Type: application/json
+
+{
+  "email": "user@test.com",
+  "password": "Password1!"
+}
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants?pageSize=5&pageNumber=1&sortBy=Name&SortDirection=descending
+Authorization: Bearer {{ownertoken}}
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants/3
+Authorization: Bearer {{ownertoken}}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/restaurants
+Authorization: Bearer {{owner2token}}
+Content-Type: application/json
+
+{
+  "Name": "Owner2 Restaurant2",
+  "Description": "A cozy restaurant",
+  "Category": "Indian",
+  "HasDelivery": true,
+  "ContactEmail": "info@test.com",
+  "ContactNumber": "555-1234",
+  "City": "New York",
+  "Street": "123 Main Street",
+  "PostalCode": "10-010"
+}
+
+###
+
+DELETE https://localhost:7045/api/restaurants/2
+Authorization: Bearer {{ownertoken}}
+
+###
+
+PATCH {{Restaurants.API_HostAddress}}/api/restaurants/2
+Authorization: Bearer {{ownertoken}}
+Content-Type: application/json
+
+{
+  "Name": "Updated name 3",
+  "Description": "A culinary experience like no other 33",
+  "HasDelivery": false
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/restaurants/3/dishes
+Content-Type: application/json
+
+{
+  "Name": "Spaghetti Bolognese",
+  "Description": "Classic Italian pasta dish with rich meat sauce",
+  "Price": 12.99,
+  "KiloCalories": 750
+}
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants/3/dishes
+Authorization: Bearer {{testusertoken}}
+
+###
+
+GET {{Restaurants.API_HostAddress}}/api/restaurants/2/dishes/4
+
+###
+
+DELETE {{Restaurants.API_HostAddress}}/api/restaurants/3/dishes
+
+###
+
+PATCH {{Restaurants.API_HostAddress}}/api/identity/user
+Authorization: Bearer {{ownertoken}}
+Content-Type: application/json
+
+{
+  "Nationality": "French",
+  "DateOfBirth": "2010-01-01"
+}
+
+###
+
+POST {{Restaurants.API_HostAddress}}/api/identity/userRole
+Authorization: Bearer {{admintoken}}
+Content-Type: application/json
+
+{
+  "UserEmail": "owner2@test.com",
+  "RoleName": "Owner"
+}
