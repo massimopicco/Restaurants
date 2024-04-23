@@ -6,7 +6,7 @@ using Restaurants.Infrastructure.Extensions;
 using Restaurants.Infrastructure.Seeders;
 using Serilog;
 
-// CI/CD test
+
 try
 {
 
